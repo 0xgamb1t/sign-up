@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script type="module" src="app.js" defer></script>
+    <script defer type="module" src="app.js"></script>
 
     <title>Document</title>
 </head>
@@ -20,7 +20,7 @@
                 <h2 class="form-title">Create Account</h2>
             </div>
 
-            <div class="form">
+            <div class="form" id="form">
                 <form action="example.com/path" method="post">
                     
                     <!-- <div class="form-item">
@@ -35,7 +35,7 @@
                         <small>Error Message</small>
                     </div> -->
                     
-                    <div class="form-item success">
+                    <div class="form-item">
                         <label for="username">Username</label>
                         <input type="text" id="username" name="username" placeholder="patrickstar">
                         <small>Error Message</small>
@@ -59,8 +59,8 @@
                         <small>Error Message</small>
                     </div>
                     <div class="form-item">
-                        <label for="user_password">Repeat Password:</label>
-                        <input type="password" id="user_password" name="password">
+                        <label for="repeat-password">Repeat Password:</label>
+                        <input type="password" id="repeat-password" name="repeat-password">
                         <small>Error Message</small>
                     </div>
 
@@ -106,7 +106,7 @@
 
                     
                         <!-- <button type="button">Reset</button> -->
-                        <button class="Submit" type="button">Submit</button>
+                        <button>Submit</button>
                     
 
 

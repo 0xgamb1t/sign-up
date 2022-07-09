@@ -48,7 +48,7 @@
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-    width: 500px;
+    width: 400px;
     max-width: 100%;
     overflow: hidden;
    }
@@ -72,13 +72,13 @@
 
    .form-item {
     margin-bottom: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     position: relative;
    }
 
    .form-item label {
     display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     font-size: 1.2rem;
    }
 
@@ -112,9 +112,14 @@
    }
 
    .form-item.success input {
-
+    border-color: #2ecc71;
    }
 
-   .form-item.success input {
-    
+   .form-item.error input {
+    border-color: #e74c3c;
+  }
+
+  .form-item.error small {
+    visibility: visible;
+    color: #e74c3c;
   }
