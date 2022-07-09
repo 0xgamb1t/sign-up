@@ -4,29 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script type="module" src="app.js" defer></script>
 
     <title>Document</title>
 </head>
 <body>
-    <div class="shell">
+    <div class="container">
         <div class="left"></div>
         <div class="right">
-            <div class="signup-form">
-                <form action="">
-                    <h2>Sign Up</h2>
-                    <label for="fname">First Name</label>
-                    <input type="text" placeholder="Patrick">
+            <div class="header">
+                <h2 class="form-title">Create Account</h2>
+            </div>
 
-                    <label for="lname">Last Name</label>
-                    <input type="text" placeholder="Star">
+            <div class="form">
+                <form action="example.com/path" method="post">
                     
-                    <label for="fname">Eamil</label>
-                    <input type="email" name="email" id="">
-                    <input type="number" name="" id="">
-                    <input type="password" name="" id="">
-                    <input type="password" name="" id="">
+                    <!-- <div class="form-item">
+                        <label for="first_name">First Name:</label>
+                        <input type="text" id="first_name" name="first_name" placeholder="Patrick" ">
+                        <small>Error Message</small>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" id="last_name" name="last_name" placeholder="Star" >
+                        <small>Error Message</small>
+                    </div> -->
+                    
+                    <div class="form-item success">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" placeholder="patrickstar">
+                        <small>Error Message</small>
+                    </div>
+
+                    <div class="form-item error">
+                        <label for="user_email">Email</label>
+                        <input type="email" id="user_email" name="email" placeholder="patrickstar@underthesea.com">
+                        <small>Error Message</small>
+                    </div>
+                    
+                    <!-- <div class="form-item">
+                        <label for="user_phone_number">Phone Number:</label>
+                        <input type="number" name="phone_number" id="user_phone_number" placeholder="(123)456-7890" pattern="">
+                        <small>Error Message</small>
+                    </div> -->
+                    
+                    <div class="form-item">
+                        <label for="user_password">Password:</label>
+                        <input type="password" id="user_password" name="password">
+                        <small>Error Message</small>
+                    </div>
+                    <div class="form-item">
+                        <label for="user_password">Repeat Password:</label>
+                        <input type="password" id="user_password" name="password">
+                        <small>Error Message</small>
+                    </div>
+
+                    <!-- <div class="form-item">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" name="dob" id="dob">
+                        <small>Error Message</small>
+                    </div> -->
+
+                    <!-- <div class="form-item">
+                        <label for="sea_creature_type">Type of creature:</label>
+                        <select name="sea_creature_type" id="">
+                            <option value="empty"></option>
+                            <option value="starfish">Starfish</option>
+                            <option value="sponge">sponge</option>
+                            <option value="crab">Crab</option>
+                            <option value="plankton">Plankton</option>
+                            <option value="squid">Squid</option>
+                            <option value="blowfish">Blowfish</option>
+                        </select>
+                        <small style="display: block;">Error Message</small>
+                    </div> -->
+
+                    <!-- <div class="form-item">
+                        <fieldset class="fish-sex">
+                            <legend>Fish Sex</legend>
+                            <div>
+                                <input type="radio" name="fish_sex" id="male" checked>
+                                <label for="male">Male</label>
+                            </div>
+                        
+                            <div>
+                                <input type="radio" name="fish_sex" id="female" >
+                                <label for="female">Female</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="fish_sex" id="other" >
+                                <label for="other">Other</label>
+                            </div>
+                            <small>Error Message</small>
+                        </fieldset>
+                    </div> -->
+
+                    
+                        <!-- <button type="button">Reset</button> -->
+                        <button class="Submit" type="button">Submit</button>
+                    
+
+
+
+                    
                 </form>
             </div>
         </div>
